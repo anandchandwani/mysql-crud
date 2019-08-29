@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+
+    <!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<div class="row">
+    <div class="col-md-4">
+		<div class="form_main">
+                <h4 class="heading"><strong>Update  </strong> User <span></span></h4>
+                <div class="form">
+                <form action="/update/<%= data.id %>" method="post" id="contactFrm" name="contactFrm">
+                    <input type="text"  placeholder="Please input your Name" value=<%= data.name %> name="name" class="txt">
+                    <input type="text"  placeholder="Please input your mobile No" value=<%= data.phone %> name="phone" class="txt">
+                    <input type="text"  placeholder="Please input your Email" value=<%= data.email %> name="email" class="txt">    
+                   <input type="submit" value="submit"  class="txt2">
+                </form>
+            </div>
+            </div>
+            </div
+	</div>
+</div>
